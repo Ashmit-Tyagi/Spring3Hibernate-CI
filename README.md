@@ -66,7 +66,7 @@
 
 **1. Automated Code Integration**
 
-     Source code is automatically fetched from the repository upon changes, ensuring that the pipeline always works with the latest version of the application.
+`Source code is automatically fetched from the repository upon changes, ensuring that the pipeline always works with the latest version of the application.`
 
 
 **2. Build Automation with Maven**
