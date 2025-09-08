@@ -2,7 +2,7 @@
 
 ## In this project, we outline the creation of a CI build pipeline for the Spring3Hibernate project, a Java-based application built using the Spring Framework and Hibernate ORM. The CI pipeline is implemented in Azure DevOps, which provides end-to-end DevOps capabilities including code management, build automation, and artifact storage.
 
-### **Clone -> git clone https://github.com/your-username/spring3hibernate.git**
+### **Clone** -> `https://github.com/your-username/spring3hibernate.git`
 
 
 ## CI Pipeline Design
