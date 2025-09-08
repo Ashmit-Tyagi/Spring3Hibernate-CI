@@ -22,3 +22,41 @@
     Store the generated artifact in Azure DevOps as a pipeline artifact.
 
     Make the artifact available for downstream processes such as deployment.
+
+
+## Tools and Frameworks Used
+
+**1. Azure DevOps Pipelines – Orchestration of build and artifact workflows.**
+
+**2. Java (OpenJDK 11) – Execution environment for the application.**
+
+**3. Apache Maven – Dependency management and build automation.**
+
+**4. MySQL (Optional) – Relational database for integration testing.**
+
+
+## Pipeline Configuration
+
+     trigger:
+     - main  
+     
+     pool:
+       name: 'azure deadpool'   
+     
+     steps:
+     - task: Maven@3
+       displayName: 'Build with Maven'
+       inputs:
+         mavenPomFile: 'pom.xml'
+         goals: 'package'
+         options: '-Dmaven.test.skip=true'
+         javaHomeOption: 'Path'
+         jdkDirectory: '/usr/lib/jvm/java-11-openjdk-amd64'
+     
+     - task: PublishBuildArtifacts@1
+       displayName: 'Publish build artifacts'
+       inputs:
+         PathtoPublish: '$(System.DefaultWorkingDirectory)/target'
+         ArtifactName: 'drop'
+         publishLocation: 'Container'
+
