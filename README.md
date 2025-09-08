@@ -35,7 +35,7 @@
 ### **4. MySQL (Optional) – Relational database for integration testing.**
 
 
-## **Clone** - [Spring3Hibernate](https://github.com/opstree/spring3hibernate)
+### **Clone** - [Spring3Hibernate](https://github.com/opstree/spring3hibernate)
 
 
 
