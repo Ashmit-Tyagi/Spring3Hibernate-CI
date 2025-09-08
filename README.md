@@ -71,20 +71,20 @@
 
 **2. Build Automation with Maven**
 
-     Maven standardizes the build process by managing dependencies, compiling source code, and packaging the application into distributable formats (.jar/.war).
+`Maven standardizes the build process by managing dependencies, compiling source code, and packaging the application into distributable formats (.jar/.war).`
      
 
 **3. Artifact Management**
 
-     Compiled outputs are published as build artifacts, making them accessible for deployment in later stages without requiring a rebuild.
+`Compiled outputs are published as build artifacts, making them accessible for deployment in later stages without requiring a rebuild.`
 
 
 **4. Pipeline-as-Code (YAML)**
 
-     The YAML configuration approach enables version-controlled pipelines, ensuring consistency, traceability, and maintainability of the CI process.
+`The YAML configuration approach enables version-controlled pipelines, ensuring consistency, traceability, and maintainability of the CI process.`
 
 
 **5. Scalability and Extensibility**
 
-     The pipeline can easily be extended to include additional stages such as automated testing, security scanning, and deployment to staging/production environments.
+`The pipeline can easily be extended to include additional stages such as automated testing, security scanning, and deployment to staging/production environments.`
 
