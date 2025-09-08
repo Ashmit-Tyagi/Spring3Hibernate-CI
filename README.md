@@ -61,6 +61,10 @@
          publishLocation: 'Container'
 
 
+
+<img width="1919" height="1131" alt="Screenshot from 2025-09-07 14-58-48" src="https://github.com/user-attachments/assets/ce81a364-f0f5-4bb7-8b91-71e0e25ad637" />
+
+
 ## Pipeline Features
 
 
