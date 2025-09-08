@@ -9,17 +9,17 @@
 
 ### Pipeline Stages
 
-**1. Source Stage**
+#### **1. Source Stage**
 
 `Fetch the application code from the version control system (Azure Repos Git or GitHub).`
 
-**2. Build Stage**
+#### **2. Build Stage**
 
 `Compile Java code using Maven.`
 
 `Package the application into a distributable artifact (.jar or .war).`
   
-**3. Artifact Stage**
+#### **3. Artifact Stage**
 
 `Store the generated artifact in Azure DevOps as a pipeline artifact.`
 
@@ -28,13 +28,13 @@
 
 ## Tools and Frameworks Used
 
-**1. Azure DevOps Pipelines – Orchestration of build and artifact workflows.**
+#### **1. Azure DevOps Pipelines – Orchestration of build and artifact workflows.**
 
-**2. Java (OpenJDK 11) – Execution environment for the application.**
+#### **2. Java (OpenJDK 11) – Execution environment for the application.**
 
-**3. Apache Maven – Dependency management and build automation.**
+#### **3. Apache Maven – Dependency management and build automation.**
 
-**4. MySQL (Optional) – Relational database for integration testing.**
+#### **4. MySQL (Optional) – Relational database for integration testing.**
 
 
 ## Pipeline Configuration
@@ -70,27 +70,27 @@
 ## Pipeline Features
 
 
-**1. Automated Code Integration**
+#### **1. Automated Code Integration**
 
 `Source code is automatically fetched from the repository upon changes, ensuring that the pipeline always works with the latest version of the application.`
 
 
-**2. Build Automation with Maven**
+#### **2. Build Automation with Maven**
 
 `Maven standardizes the build process by managing dependencies, compiling source code, and packaging the application into distributable formats (.jar/.war).`
      
 
-**3. Artifact Management**
+#### **3. Artifact Management**
 
 `Compiled outputs are published as build artifacts, making them accessible for deployment in later stages without requiring a rebuild.`
 
 
-**4. Pipeline-as-Code (YAML)**
+#### **4. Pipeline-as-Code (YAML)**
 
 `The YAML configuration approach enables version-controlled pipelines, ensuring consistency, traceability, and maintainability of the CI process.`
 
 
-**5. Scalability and Extensibility**
+#### **5. Scalability and Extensibility**
 
 `The pipeline can easily be extended to include additional stages such as automated testing, security scanning, and deployment to staging/production environments.`
 
