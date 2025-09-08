@@ -9,19 +9,19 @@
 
 **1. Source Stage**
 
-     Fetch the application code from the version control system (Azure Repos Git or GitHub).
+`Fetch the application code from the version control system (Azure Repos Git or GitHub).`
 
 **2. Build Stage**
 
-    Compile Java code using Maven.
+`Compile Java code using Maven.`
 
-    Package the application into a distributable artifact (.jar or .war).
+`Package the application into a distributable artifact (.jar or .war).`
   
 **3. Artifact Stage**
 
-    Store the generated artifact in Azure DevOps as a pipeline artifact.
+`Store the generated artifact in Azure DevOps as a pipeline artifact.`
 
-    Make the artifact available for downstream processes such as deployment.
+`Make the artifact available for downstream processes such as deployment.`
 
 
 ## Tools and Frameworks Used
